@@ -1,6 +1,6 @@
 # Ubuntu 12.04 Stack Installer
 
-This is a simple shell script I wrote to quickly set up staging and production servers for my [Ruby on Rails](http://rubyonrails.org) applications. I looked at both [Chef](http://wiki.opscode.com/display/chef/Home) and [Sprinkle](https://github.com/crafterm/sprinkle) before deciding to go with a pure [Bash](http://en.wikipedia.org/wiki/Bash_(Unix_shell)) script. Chef appeared to be too complicated for my simple needs and although Sprinkle looked like it would've been perfect, I ran into issues getting it to work.
+This is a simple shell script I wrote to quickly set up staging and production servers for my [Ruby on Rails](http://rubyonrails.org) applications. I looked at both [Chef](http://wiki.opscode.com/display/chef/Home) and [Sprinkle](https://github.com/crafterm/sprinkle) before deciding to go with a pure [Bash](http://en.wikipedia.org/wiki/Bash_\(Unix_shell\)) script. Chef appeared to be too complicated for my simple needs and although Sprinkle looked like it would've been perfect, I ran into issues getting it to work.
 
 ## This Script Will
 

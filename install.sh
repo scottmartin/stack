@@ -119,6 +119,7 @@ fi
 sudo apt-get -y install build-essential tklib zlib1g-dev libssl-dev libreadline-gplv2-dev libxml2 libxml2-dev libxslt1-dev
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone git://github.com/sstephenson/rbenv-vars.git ~/.rbenv/plugins/rbenv-vars
 git clone git://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
 echo 'eval "$(rbenv init -)"' >> ~/.profile

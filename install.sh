@@ -121,8 +121,8 @@ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone git://github.com/sstephenson/rbenv-vars.git ~/.rbenv/plugins/rbenv-vars
 git clone git://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
-echo 'eval "$(rbenv init -)"' >> ~/.profile
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 cp support/ruby/gemrc ~/.gemrc
 
 echo ''
